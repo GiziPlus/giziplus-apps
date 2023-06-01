@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="icon" href="../public/gizi-plus-logo/png/logo-icon-background.png">
+    <title>GiziPlus</title>
+</head>
+<body>
+    <header class="">
+        <!-- Navbar -->
+        <nav class="bg-gradient-to-r from-primary to-secondary w-full fixed z-50">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between shadow-none mx-auto p-4">
+                <a href="#" class="flex items-center">
+                    <img class="h-8 mr-3"
+                        src="../public/gizi-plus-logo/png/gizi-plus-low-resolution-logo-white-on-transparent-background.png"
+                        alt="">
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-fourth focus:outline-none focus:ring-2 focus:ring-white"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="font-medium gap-2 flex text-center flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:gap-4">
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:h-1/6 before:rounded-lg before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Tes
+                                Gizi</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Artikel</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Forum</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Tentang
+                                Kami</a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-white text-fourth py-1 px-5 rounded-md hover:bg-gray-200">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="max-w-full">
+            <div class="mx-auto py-20 px-6 md:text-lg">
+                <h1 class="text-center text-3xl font-extrabold mb-2 lg:text-4xl">Selamat Datang di Forum Diskusi GiziPlus</h1>
+                <div class="m-auto lg:w-3/4">
+                    <!-- Search -->
+                    <div class="flex py-2 gap-2">
+                        <input class="w-full rounded-md border border-gray-300 focus:ring-blue-500 focus:border-blue-500" type="text" placeholder="Cari Diskusi">
+                        <button class="bg-fourth text-white rounded-md hover:bg-third px-2">
+                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path clip-rule="evenodd" fill-rule="evenodd"
+                                    d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- Diskusi Baru -->
+                    <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="w-full py-2 bg-fourth text-white rounded-md hover:bg-third">Buat Diskusi Baru</button>
+                    <div id="authentication-modal" tabindex="-1" aria-hidden="true"
+                        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                        <div class="relative w-full max-w-2xl max-h-full">
+                            <!-- Modal content -->
+                            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                <button type="button"
+                                    class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
+                                    data-modal-hide="authentication-modal">
+                                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="sr-only">Close modal</span>
+                                </button>
+                                <div class="px-6 py-6 lg:px-8">
+                                    <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Buat Diskusi Baru</h3>
+                                    <form class="space-y-6" action="#">
+                                        <div>
+                                            <label for="judul" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Judul Pertanyaan</label>
+                                            <input type="text" name="judul" id="judul"
+                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                                placeholder="Ketik Judul">
+                                        </div>
+                                        <div>
+                                            <label for="pertanyaan" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Uraian Pertanyaan</label>
+                                            <input type="text" name="pertanyaan" id="pertanyaan" placeholder="Ketik Pertanyaanmu"
+                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                                required>
+                                        </div>
+                                        <button type="submit"
+                                            class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Buat Diskusi</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Diskusi -->
+                    <div class="py-10 border-b-2">
+                        <p class="font-bold"><a href="#">Diskusi 1</a></p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
+                    </div>
+                    <div class="py-10 border-b-2">
+                        <p class="font-bold"><a href="#">Diskusi 1</a></p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem
+                            dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
+                    </div>
+                    <div class="py-10 border-b-2">
+                        <p class="font-bold"><a href="#">Diskusi 1</a></p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem
+                            dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
+                    </div>
+                    <div class="py-10 border-b-2">
+                        <p class="font-bold"><a href="#">Diskusi 1</a></p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem
+                            dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                <div class="col-span-2 md:col-span-2">
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Tentang GiziPlus</h2>
+                    <p class="text-gray-500">GiziPlus merupakan platform digital kesehatan yang didedikasikan untuk memantau
+                        dan menjaga keseimbangan masyarakat.</p>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Navigasi</h2>
+                    <ul class="text-gray-500 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Beranda</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Tes Gizi</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Artikel</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Forum</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Kontak Kami</h2>
+                    <ul class="text-gray-500 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Andira</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Anwar</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Ilmi</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Reynaldi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
