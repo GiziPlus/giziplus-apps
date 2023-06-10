@@ -1,18 +1,20 @@
 import Home from '../views/pages/home';
-import test from '../views/pages/test';
-import article from '../views/pages/article';
-import forum from '../views/pages/forum';
-import aboutUs from '../views/pages/aboutUs';
-import loginPage from '../views/pages/loginPage';
+import Test from '../views/pages/test';
+import Article from '../views/pages/article';
+import Forum from '../views/pages/forum';
+import About from '../views/pages/about';
+import Login from '../views/pages/login';
+import Sign from '../views/pages/sign';
 
 const routes = {
   '/': Home, // default page
   '/home': Home,
-  '/test': test,
-  '/article/': article,
-  '/forum/': forum,
-  '/aboutUs/': aboutUs,
-  '/login/': loginPage,
+  '/test': Test,
+  '/article': Article,
+  '/forum': Forum,
+  '/about': About,
+  '/login': Login,
+  '/sign': Sign,
 };
 
 export default routes;

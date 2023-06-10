@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="retro">
+class NavBar extends HTMLElement {
+  connectedCallback() {
+    this.render();
+  }
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="./gizi-plus-logo/png/logo-icon-background.png">
-    <title>GiziPlus</title>
-</head>
-
-<body>
-    <header>
-        <!-- Navbar -->
-        <nav class="bg-gradient-to-r from-primary to-secondary w-full fixed z-50">
+  render() {
+    this.innerHTML = `
+          <nav class="bg-gradient-to-r from-primary to-secondary w-full fixed z-50">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between shadow-none mx-auto p-4">
                 <a href="#" class="flex items-center">
                     <img class="h-8 mr-3" src="./gizi-plus-logo/png/gizi-plus-low-resolution-logo-white-on-transparent-background.png" alt="">
@@ -33,91 +25,35 @@
                     <ul
                         class="font-medium gap-2 flex text-center flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:gap-4">
                         <li>
-                            <a href="#"
+                            <a href="/"
                                 class="relative text-white transition-all w-min-content before:w-0 before:h-1/6 before:rounded-lg before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Beranda</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="#/test"
                                 class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Tes Gizi</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="#/article"
                                 class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Artikel</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="#/forum"
                                 class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Forum</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="#/about"
                                 class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Tentang Kami</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="#/login"
                                 class="bg-white text-fourth py-1 px-5 rounded-md hover:bg-gray-200">Login</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <main id="mainContent">
-        
-    </main>
-    <footer class="bg-gray-900">
-        <div class="mx-auto w-full max-w-screen-xl">
-            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-                <div class="col-span-2 md:col-span-2">
-                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Tentang GiziPlus</h2>
-                    <p class="text-gray-500">GiziPlus merupakan platform digital kesehatan yang didedikasikan untuk memantau dan menjaga keseimbangan masyarakat.</p>
-                </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Navigasi</h2>
-                    <ul class="text-gray-500 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Beranda</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Tes Gizi</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Artikel</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Forum</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Tentang Kami</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Kontak Kami</h2>
-                    <ul class="text-gray-500 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Andira</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Anwar</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Ilmi</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:text-white">Reynaldi</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+        `;
+  }
+}
 
-    <!-- <script src="../node_modules/flowbite/dist/flowbite.min.js"></script> -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="bundle.js"></script>
-</body>
-
-</html>
+customElements.define('nav-bar', NavBar);

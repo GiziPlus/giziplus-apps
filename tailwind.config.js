@@ -12,6 +12,7 @@ module.exports = {
       fourth: '#185da1',
       sixth: '#55b9dd',
     },
+    screens: { md: '768px', lg: '1024px' },
     extend: {},
   },
   // eslint-disable-next-line global-require
