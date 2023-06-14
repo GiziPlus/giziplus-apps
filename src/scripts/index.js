@@ -8,7 +8,7 @@ import './views/components/app-hero';
 import './views/components/app-footer';
 import './views/components/app-layanan';
 import './views/components/home-content';
-import './views/components/app=status';
+import './views/components/app-status';
 import './views/components/app-test';
 import './views/components/app-panduan';
 import './views/components/app-artikel';

@@ -7,7 +7,7 @@ class HomeContent extends HTMLElement {
     this.innerHTML = `
     <!-- Layanan -->
     <section class="max-w-full">
-        <div id="layanan" class="flex flex-wrap justify-center pb-10 px-6 mx-auto max-w-screen-xl gap-4 md:py-16">
+        <div id="layanan" class="flex flex-wrap justify-center pb-10 px-6 lg:px-20 mx-auto max-w-screen-xl gap-4 md:py-16">
             
         </div>
     </section>
