@@ -12,7 +12,6 @@ import './views/components/app-status';
 import './views/components/app-test';
 import './views/components/app-panduan';
 import './views/components/app-artikel';
-import './views/components/artikel-content';
 import './views/components/app-forum';
 import './views/components/app-tentang';
 import './views/components/app-tim';
