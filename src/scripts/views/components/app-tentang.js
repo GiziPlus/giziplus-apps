@@ -9,7 +9,7 @@ class AppTentang extends HTMLElement {
         <section class="pt-16">
             <div class="flex flex-col justify-center px-6 py-6 m-6 bg-gray-100 md:flex-row-reverse md:mx-16 md:py-24">
                 <img class="object-cover w-[10rem] h-[10rem] mx-auto my-auto"
-                    src="./gizi-plus-logo/png/logo-color.png" alt="" />
+                    src="./gizi-plus-logo/png/logo-color.png" alt="Logo GiziPlus" />
                 <div class="py-6 my-auto text-center md:pr-6 md:text-left">
                     <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Tentang Kami</h3>
                         <p class="mb-3 font-normal text-gray-700">Lorem, ipsum dolor sit amet consectetur

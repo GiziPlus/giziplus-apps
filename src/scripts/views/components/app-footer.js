@@ -16,19 +16,19 @@ class AppFooter extends HTMLElement {
                 <h2 class="mb-6 text-sm font-semibold text-white uppercase">Navigasi</h2>
                 <ul class="text-gray-500 font-medium">
                     <li class="mb-4">
-                        <a href="#" class="hover:text-white">Beranda</a>
+                        <a href="/" class="hover:text-white">Beranda</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:text-white">Tes Gizi</a>
+                        <a href="#/test" class="hover:text-white">Tes Gizi</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:text-white">Artikel</a>
+                        <a href="#/article" class="hover:text-white">Artikel</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:text-white">Forum</a>
+                        <a href="#/forum" class="hover:text-white">Forum</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:text-white">Tentang Kami</a>
+                        <a href="#/about" class="hover:text-white">Tentang Kami</a>
                     </li>
                 </ul>
             </div>

@@ -20,7 +20,7 @@ class AppTim extends HTMLElement {
                         <div
                             class="flex flex-col p-6 shadow-lg border bg-white border-secondary-color rounded-xl w-[200px] mx-auto">
                             <img class="w-[10rem] h-[10rem] mx-auto" src="./gizi-plus-logo/png/logo-color.png"
-                                alt="">
+                                alt="Andira">
                             <div class="text-center">
                                 <h2>Nama Tim</h2>
                                 <p>Status</p>
@@ -34,7 +34,7 @@ class AppTim extends HTMLElement {
                     <div class="hidden duration-700 py-7 ease-in-out" data-carousel-item>
                         <div
                             class="flex flex-col p-6 shadow-lg border bg-white border-secondary-color rounded-xl w-[200px] mx-auto">
-                            <img class="w-[10rem] h-[10rem]" src="./gizi-plus-logo/png/logo-color.png" alt="">
+                            <img class="w-[10rem] h-[10rem]" src="./gizi-plus-logo/png/logo-color.png" alt="Anwar">
                             <div class="text-center">
                                 <h2>Nama Tim</h2>
                                 <p>Status</p>
@@ -48,7 +48,7 @@ class AppTim extends HTMLElement {
                     <div class="hidden duration-700 py-7 ease-in-out" data-carousel-item>
                         <div
                             class="flex flex-col p-6 shadow-lg border bg-white border-secondary-color rounded-xl w-[200px] mx-auto">
-                            <img class="w-[10rem] h-[10rem]" src="./gizi-plus-logo/png/logo-color.png" alt="">
+                            <img class="w-[10rem] h-[10rem]" src="./gizi-plus-logo/png/logo-color.png" alt="Ilmi">
                             <div class="text-center">
                                 <h2>Nama Tim</h2>
                                 <p>Status</p>
@@ -62,7 +62,7 @@ class AppTim extends HTMLElement {
                     <div class="hidden duration-700 py-7 ease-in-out" data-carousel-item>
                         <div
                             class="flex flex-col p-6 shadow-lg border bg-white border-secondary-color rounded-xl w-[200px] mx-auto">
-                            <img class="w-[10rem] h-[10rem]" src="./gizi-plus-logo/png/logo-color.png" alt="">
+                            <img class="w-[10rem] h-[10rem]" src="./gizi-plus-logo/png/logo-color.png" alt="Reynaldi">
                             <div class="text-center">
                                 <h2>Nama Tim</h2>
                                 <p>Status</p>

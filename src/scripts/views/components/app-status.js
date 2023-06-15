@@ -8,7 +8,7 @@ class AppStatus extends HTMLElement {
       <section class="max-w-full">
       <div id="status"
           class="flex flex-wrap flex-row-reverse justify-center items-center pt-20 py-8 px-2 md:gap-8 md:py-24">
-          <img class="w-3/4 md:w-1/2 lg:max-w-lg" src="health-professional-team-animate.svg" alt="" width="400">
+          <img class="w-3/4 md:w-1/2 lg:max-w-lg" src="health-professional-team-animate.svg" alt="Tes Gizi" width="400">
           <div class="max-w-lg">
               <h1 class="text-3xl font-extrabold lg:text-4xl">Tes Status Gizi</h1>
               <p class="text-sm leading-relaxed lg:text-xl">Tes Status Gizi pada GiziPlus adalah sebuah alat atau
@@ -18,8 +18,6 @@ class AppStatus extends HTMLElement {
                   memberikan gambaran mengenai kualitas nutrisi yang diterima oleh individu dan memperoleh
                   informasi tentang status gizi
                   mereka.</p>
-              <button type="button"
-                  class="py-2.5 px-5 mt-4 mb-2 text-lg font-medium text-white focus:outline-none bg-fourth rounded-full hover:bg-third focus:z-10 focus:ring-4 focus:ring-white">Selengkapnya</button>
           </div>
       </div>
   </section>

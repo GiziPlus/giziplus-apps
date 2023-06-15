@@ -9,8 +9,9 @@ class AppLayanan extends HTMLElement {
                     <!-- layanan 1 -->
                     <div data-aos="fade-up"
                         class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
-                        <img class="w-14 h-w-14 mb-2" src="./icon/checklist.png" alt="">
-                        <a href="#">
+                        <img class="w-14 h-w-14 mb-2" src="./icon/checklist.png" alt="Tes
+                                Gizi">
+                        <a href="#/test/">
                             <h5 class="mb-2 text-2xl font-semibold tracking-tight">Tes
                                 Gizi</h5>
                         </a>
@@ -20,8 +21,8 @@ class AppLayanan extends HTMLElement {
                     <!-- layanan 2 -->
                     <div data-aos="fade-up"
                         class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
-                        <img class="w-14 h-w-14 mb-2" src="./icon/newspaper.png" alt="">
-                        <a href="#">
+                        <img class="w-14 h-w-14 mb-2" src="./icon/newspaper.png" alt="Artikel">
+                        <a href="#/article/">
                             <h5 class="mb-2 text-2xl font-semibold tracking-tight">Artikel
                             </h5>
                         </a>
@@ -31,8 +32,8 @@ class AppLayanan extends HTMLElement {
                     <!-- layanan 3 -->
                     <div data-aos="fade-up"
                         class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
-                        <img class="w-14 h-w-14 mb-2" src="./icon/chat.png" alt="">
-                        <a href="#">
+                        <img class="w-14 h-w-14 mb-2" src="./icon/chat.png" alt="Forum">
+                        <a href="#/forum/">
                             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-">Forum
                             </h5>
                         </a>

@@ -8,7 +8,7 @@ class NavBar extends HTMLElement {
           <nav class="bg-gradient-to-r from-primary to-secondary w-full fixed z-50">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between shadow-none mx-auto p-4">
                 <a href="#" class="flex items-center">
-                    <img class="h-8 mr-3" src="./gizi-plus-logo/png/gizi-plus-low-resolution-logo-white-on-transparent-background.png" alt="">
+                    <img class="h-8 mr-3" src="./gizi-plus-logo/png/gizi-plus-low-resolution-logo-white-on-transparent-background.png" alt="Logo GiziPlus">
                 </a>
                 <button id="hamburgerMenu" data-collapse-toggle="navigationDrawer" type="button"
                     class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-fourth focus:outline-none focus:ring-2 focus:ring-white"

@@ -14,7 +14,7 @@ class AppPanduan extends HTMLElement {
                 <div class="flex flex-wrap justify-center gap-4">
                     <!-- Panduan 1 -->
                     <div data-aos="fade-up" class="max-w-sm p-6 text-center">
-                        <img class="w-20 h-20 mb-4 mx-auto" src="../icon/device.png" alt="">
+                        <img class="w-20 h-20 mb-4 mx-auto" src="../icon/device.png" alt="Siapkan Perangkat">
                         <p class="mb-3 font-normal text-gray-500">
                             Siapkan perangkat yang akan kamu gunakan dalam mengerjakan tes status gizi, pastikan juga
                             koneksi internetmu stabil.
@@ -22,7 +22,7 @@ class AppPanduan extends HTMLElement {
                     </div>
                     <!-- Panduan 2 -->
                     <div data-aos="fade-up" class="max-w-sm p-6 text-center">
-                        <img class="w-20 h-20 mb-4 mx-auto" src="../icon/input.png" alt="">
+                        <img class="w-20 h-20 mb-4 mx-auto" src="../icon/input.png" alt="Masukan Input">
                         <p class="mb-3 font-normal text-gray-500">
                             Pastikan kamu mengisi data yang diminta dengan akurat, termasuk berat badan, tinggi badan,
                             usia, jenis kelamin, dan
@@ -32,7 +32,7 @@ class AppPanduan extends HTMLElement {
                     </div>
                     <!-- Panduan 3 -->
                     <div data-aos="fade-up" class="max-w-sm p-6 text-center">
-                        <img class="w-20 h-20 mb-4 mx-auto" src="../icon/search.png" alt="">
+                        <img class="w-20 h-20 mb-4 mx-auto" src="../icon/search.png" alt="Hitung">
                         <p class="mb-3 font-normal text-gray-500">
                             Setelah itu kamu dapat menekan "Hitung", lalu kamu dapat melihat hasil status gizi kamu.
                         </p>
