@@ -25,7 +25,7 @@ class AppHero extends HTMLElement {
                         gizi anda dan temukan juga tes untuk mengetahui kebutuhan kadar gizi anda hanya di
                         GiziPlus.</p>
                     <button type="button"
-                        class="py-2.5 px-5 mt-4 mb-2 text-lg font-medium text-white focus:outline-none bg-fourth rounded-full hover:bg-third focus:z-10 focus:ring-4 focus:ring-white"><a href="#layanan">Selengkapnya</a></button>
+                        class="py-2.5 px-5 mt-4 mb-2 text-lg font-medium text-white focus:outline-none bg-fourth rounded-full hover:bg-third focus:z-10 focus:ring-4 focus:ring-white"><a href="#judulLayanan">Selengkapnya</a></button>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@ class AppHero extends HTMLElement {
         <div class="hidden duration-1000 ease-in-out" data-carousel-item>
             <div
                 class="flex flex-wrap flex-row justify-center items-center pt-16 px-6 lg:pt-28 gap-10 lg:gap-16">
-                <img class="w-3/4 md:w-1/2 lg:w-1/4" src="./health-professional-team-animate.svg" alt="Jumbotron 2"
+                <img class="w-3/4 md:w-1/2 lg:w-1/4" src="./team-spirit-animate.svg" alt="Jumbotron 2"
                     width="400">
                 <div class="text-white max-w-lg">
                     <h1 class="text-3xl font-extrabold lg:text-4xl">Ayo Kita Jaga Kesehatan Kita Bersama</h1>

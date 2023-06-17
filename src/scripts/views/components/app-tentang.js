@@ -7,15 +7,12 @@ class AppTentang extends HTMLElement {
     this.innerHTML = `
     <!-- Tentang Kami -->
         <section class="pt-16">
-            <div class="flex flex-col justify-center px-6 py-6 m-6 bg-gray-100 md:flex-row-reverse md:mx-16 md:py-24">
-                <img class="object-cover w-[10rem] h-[10rem] mx-auto my-auto"
-                    src="./gizi-plus-logo/png/logo-color.png" alt="Logo GiziPlus" />
-                <div class="py-6 my-auto text-center md:pr-6 md:text-left">
+            <div class="flex flex-col justify-center px-6 py-6 m-6 bg-gray-100 lg:flex-row-reverse md:mx-16 md:py-24">
+                <img class="md:px-8 w-1/2 lg:w-1/4 mx-auto my-auto"
+                    src="./gizi-plus-logo/png/logo-no-background.png" alt="Logo GiziPlus" />
+                <div class="py-6 md:px-8 my-auto text-center md:pr-6 md:text-left">
                     <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Tentang Kami</h3>
-                        <p class="mb-3 font-normal text-gray-700">Lorem, ipsum dolor sit amet consectetur
-                            adipisicing elit. Obcaecati praesentium accusamus consequuntur accusantium soluta, enim
-                            dolorum, eveniet
-                            sit provident aliquid unde laborum eos nisi explicabo iste hic. Autem, assumenda provident!
+                        <p class="mb-3 font-normal text-gray-700">Kami adalah tim teknologi yang bersemangat yang membentuk aplikasi GiziPlus untuk mengatasi masalah kurang gizi di Indonesia, terutama di daerah pedesaan dan terpencil. Dengan memberikan akses kepada masyarakat untuk memilih makanan yang sehat, GiziPlus bertujuan untuk meningkatkan kualitas gizi dan mempromosikan gaya hidup sehat di Indonesia. Kami berkomitmen untuk terus mengembangkan aplikasi ini agar memberikan dampak positif yang signifikan bagi masyarakat.
                         </p>
                 </div>
             </div>
@@ -31,14 +28,7 @@ class AppTentang extends HTMLElement {
                 </div>
 
                 <div class="flex">
-                    <p>Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Obcaecati praesentium accusamus consequuntur accusantium soluta, enim dolorum,
-                        eveniet
-                        sit provident aliquid unde laborum eos nisi explicabo iste hic. Autem, assumenda
-                        provident!Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Obcaecati praesentium accusamus consequuntur accusantium soluta, enim dolorum,
-                        eveniet
-                        sit provident aliquid unde laborum eos nisi explicabo iste hic. Autem, assumenda provident!</p>
+                    <p>Aplikasi GiziPlus dibentuk untuk mengatasi masalah kurang gizi di Indonesia, terutama di daerah pedesaan dan terpencil. Dengan tujuan mencegah gizi buruk, aplikasi ini memberikan akses kepada masyarakat untuk memilih makanan yang baik bagi kesehatan tubuh. GiziPlus ingin menjadi gaya hidup sehat yang diadopsi oleh masyarakat luas, membawa perubahan positif dan meningkatkan kualitas gizi di Indonesia.</p>
                 </div>
             </div>
         </section>

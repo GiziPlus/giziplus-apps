@@ -12,8 +12,8 @@ class AppTes extends HTMLElement {
 </section>
 <section class="max-w-full">
     <div class="py-8 px-2 md:gap-8 md:pt-24 pb-10">
-        <div class="mx-auto border border-gray-300 rounded-lg md:w-3/4">
-            <div data-aos="fade-right"
+        <div data-aos="fade-down" class="mx-auto border border-gray-300 rounded-lg md:w-3/4">
+            <div
                 class="flex flex-wrap justify-center mx-auto text-black py-6 max-w-lg md:text-lg md:py-0">
                 <h1
                     class="pt-4 text-3xl font-extrabold after:block after:content-[''] after:mt-4 after:mb-3 after:h-1 after:bg-gradient-to-r from-primary to-secondary after:scale-x-125 lg:text-4xl">Tes Gizi</h1>
@@ -63,8 +63,8 @@ class AppTes extends HTMLElement {
 </section>
 <section class="max-w-full">
             <div class="pb-16 px-2">
-                <div class="mx-auto border border-gray-300 rounded-lg md:w-3/4">
-                    <div data-aos="fade-right"
+                <div data-aos="fade-down" class="mx-auto border border-gray-300 rounded-lg md:w-3/4">
+                    <div
                         class="flex flex-wrap justify-center mx-auto text-black py-6 max-w-lg md:text-lg md:py-0">
                         <h1
                             class="pt-4 text-3xl font-extrabold after:block after:content-[''] after:mt-4 after:mb-3 after:h-1 after:bg-gradient-to-r from-primary to-secondary after:scale-x-125 lg:text-4xl">
