@@ -36,16 +36,16 @@ class AppFooter extends HTMLElement {
                 <h2 class="mb-6 text-sm font-semibold text-white uppercase">Kontak Kami</h2>
                 <ul class="text-gray-500 font-medium">
                     <li class="mb-4">
-                        <a href="https://www.linkedin.com/in/andira-yovi-setiawan/" class="hover:text-white">Andira</a>
+                        <a href="https://www.linkedin.com/in/andira-yovi-setiawan/" target="_blank" rel="noopener" class="hover:text-white">Andira</a>
                     </li>
                     <li class="mb-4">
-                        <a href="https://www.linkedin.com/in/rizkymanwar/" class="hover:text-white">Anwar</a>
+                        <a href="https://www.linkedin.com/in/rizkymanwar/" target="_blank" rel="noopener" class="hover:text-white">Anwar</a>
                     </li>
                     <li class="mb-4">
-                        <a href="https://www.linkedin.com/in/muhammadnurilmi/" class="hover:text-white">Ilmi</a>
+                        <a href="https://www.linkedin.com/in/muhammadnurilmi/" target="_blank" rel="noopener" class="hover:text-white">Ilmi</a>
                     </li>
                     <li class="mb-4">
-                        <a href="https://www.linkedin.com/in/reynaldighifariputrahustama/" class="hover:text-white">Reynaldi</a>
+                        <a href="https://www.linkedin.com/in/reynaldighifariputrahustama/" target="_blank" rel="noopener" class="hover:text-white">Reynaldi</a>
                     </li>
                 </ul>
             </div>
