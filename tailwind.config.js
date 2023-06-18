@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,js}',
+  content: ['./src/**/*.{html, js}',
+    './src/**/*.{js,jsx,ts,tsx}',
+    './dist/*.html',
     './node_modules/flowbite/**/*.js'],
   theme: {
     colors: {
@@ -10,6 +12,7 @@ module.exports = {
       fourth: '#185da1',
       sixth: '#55b9dd',
     },
+    screens: { md: '768px', lg: '1024px' },
     extend: {},
   },
   // eslint-disable-next-line global-require

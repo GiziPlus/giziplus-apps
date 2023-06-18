@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="retro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="icon" href="../public/gizi-plus-logo/png/logo-icon-background.png">
+    <title>GiziPlus</title>
+</head>
+
+<body>
+    <header class="">
+        <!-- Navbar -->
+        <nav class="bg-gradient-to-r from-primary to-secondary w-full fixed z-50">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between shadow-none mx-auto p-4">
+                <a href="#" class="flex items-center">
+                    <img class="h-8 mr-3"
+                        src="../public/gizi-plus-logo/png/gizi-plus-low-resolution-logo-white-on-transparent-background.png"
+                        alt="">
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-fourth focus:outline-none focus:ring-2 focus:ring-white"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="font-medium gap-2 flex text-center flex-col  p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:gap-4 md:text-lg">
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:h-1/6 before:rounded-lg before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Tes
+                                Gizi</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Artikel</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Forum</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="relative text-white transition-all w-min-content before:w-0 before:rounded-lg before:h-1/6 before:absolute before:-bottom-1 before:right-0 before:bg-white before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-white">Tentang
+                                Kami</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Deskripsi -->
+        <section class="max-w-full">
+            <div class="mx-auto pt-20 px-2 md:w-3/4">
+                <h2 id="name" class="font-bold text-lg py-2">Nama1</h2>
+                <p></p>
+                <h1 id="title" class="font-bold text-2xl py-2">Judul Pertanyaan1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quaerat, culpa pariatur molestiae
+                    consequuntur eum quo sapiente consectetur numquam laborum dolorem earum, voluptatibus hic? Inventore
+                    voluptatem nemo nisi beatae eligendi voluptatum odit esse delectus repellat tempore harum natus
+                    consequuntur rem aspernatur, sit veritatis dolorem fuga minima dolore architecto a fugit assumenda?
+                    Excepturi facilis incidunt, a, corporis eos iure consequuntur blanditiis enim voluptates beatae
+                    quaerat dicta adipisci sint doloribus impedit voluptas culpa labore tempora provident. Vel, nostrum
+                    veniam assumenda, asperiores minus adipisci dolorem, rerum aperiam deserunt quod nulla reiciendis
+                    ipsam hic consequuntur! Facilis laudantium nam impedit. Laborum facilis error vel sed!</p>
+                <div class="py-4 flex gap-2">
+                    <img src="../public/icon/comment.png" class="w-7" alt="">
+                    <p class="telg">999 Balasan</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Balas -->
+        <section class="max-w-full">
+            <div class="mx-auto px-2 md:w-3/4">
+                <form class="space-y-6" action="#">
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama</label>
+                    <input type="form" name="name" id="name" placeholder="Tambahkan nama"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        required>
+                    <label for="komentar"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Komentar</label>
+                    <input type="form" name="komentar" id="komentar" placeholder="Tambahkan komentar"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        required>
+                    <button type="submit"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Komentar</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Balasan1 -->
+        <section class="max-w-full">
+            <div class="mx-auto pb-20 px-2 md:w-3/4">
+                <div class="border-b-2 py-10">
+                    <h2 id="name" class="font-bold text-lg">Nama1</h2>
+                    <p class="pt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quaerat, culpa
+                        pariatur molestiae consequuntur eum quo
+                        sapiente consectetur numquam laborum dolorem earum, voluptatibus hic? Inventore voluptatem nemo
+                        nisi beatae eligendi
+                        voluptatum odit esse delectus repellat tempore harum natus consequuntur rem aspernatur, sit
+                        veritatis dolorem fuga
+                        minima dolore architecto a fugit assumenda? Excepturi facilis incidunt, a, corporis eos iure
+                        consequuntur blanditiis
+                        enim voluptates beatae quaerat dicta adipisci sint doloribus impedit voluptas culpa labore
+                        tempora provident. Vel,
+                        nostrum veniam assumenda, asperiores minus adipisci dolorem, rerum aperiam deserunt quod nulla
+                        reiciendis ipsam hic
+                        consequuntur! Facilis laudantium nam impedit. Laborum facilis error vel sed!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                <div class="col-span-2 md:col-span-2">
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Tentang GiziPlus</h2>
+                    <p class="text-gray-500">GiziPlus merupakan platform digital kesehatan yang didedikasikan untuk
+                        memantau dan menjaga keseimbangan masyarakat.</p>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Navigasi</h2>
+                    <ul class="text-gray-500 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Beranda</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Tes Gizi</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Artikel</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Forum</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Kontak Kami</h2>
+                    <ul class="text-gray-500 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Andira</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Anwar</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Ilmi</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:text-white">Reynaldi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

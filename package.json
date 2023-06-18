@@ -5,16 +5,36 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./src/styles/input.css -o ./dist/output.css --watch"
+    "dev": "tailwindcss -i ./src/styles/input.css -o ./dist/output.css --watch",
+    "serve": "http-server dist",
+    "build-serve": "npm run build && npm run serve",
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js "
   },
   "keywords": [],
   "author": "GiziPlus Capstone Team",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "tailwindcss": "^3.3.2"
+    "html-webpack-plugin": "^5.5.1",
+    "http-server": "^14.1.1",
+    "postcss": "^8.4.24",
+    "postcss-loader": "^7.3.2",
+    "postcss-preset-env": "^8.4.1",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.2",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0",
+    "webpack-merge": "^5.9.0"
   },
   "dependencies": {
     "aos": "^2.3.4",
