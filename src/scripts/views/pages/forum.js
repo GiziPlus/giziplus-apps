@@ -1,3 +1,6 @@
+import { ForumSource } from '../../global/api-endpoint';
+import { creteForumItemtemplate } from '../templates/templates-creator';
+
 const Forum = {
   async render() {
     return `
@@ -6,30 +9,27 @@ const Forum = {
   },
 
   async afterRender() {
+    const forum = await ForumSource.getForumList();
     const mainContainer = document.querySelector('#forum');
-    const layanan = `
-    <!-- Card Diskusi -->
-    <div class="py-10 border-b-2">
-        <p class="font-bold"><a href="#">Diskusi 1</a></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
-    </div>
-    <div class="py-10 border-b-2">
-        <p class="font-bold"><a href="#">Diskusi 1</a></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem
-            dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
-    </div>
-    <div class="py-10 border-b-2">
-        <p class="font-bold"><a href="#">Diskusi 1</a></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem
-            dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
-    </div>
-    <div class="py-10 border-b-2">
-        <p class="font-bold"><a href="#">Diskusi 1</a></p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequuntur aut tempora sunt. Esse quaerat rem
-            dolore labore sint beatae, expedita inventore itaque incidunt non possimus asperiores ipsa deserunt quos?</p>
-    </div>
-      `;
-    mainContainer.innerHTML = layanan;
+    forum.forEach((forums) => {
+      mainContainer.innerHTML += creteForumItemtemplate(forums);
+    });
+
+    const createForumButton = document.getElementById('create');
+    createForumButton.addEventListener('click', async (event) => {
+      event.preventDefault();
+      const name = document.getElementById('nama').value;
+      const title = document.getElementById('judul').value;
+      const description = document.getElementById('pertanyaan').value;
+
+      const forumData = {
+        name,
+        title,
+        description,
+      };
+
+      await ForumSource.createForumDetail(forumData);
+    });
   },
 };
 

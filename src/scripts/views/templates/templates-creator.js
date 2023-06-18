@@ -40,4 +40,12 @@ const creteNewArticleItemtemplate = (article) => `
 Daftar Artikel</h1>
     `;
 
-export { creteArticleItemtemplate, creteNewArticleItemtemplate };
+const creteForumItemtemplate = (forum) => `
+    <div class="py-10 border-b-2">
+        <p class="font-semibold">${forum.name}</p>
+        <p class="font-bold text-xl"><a href="#">${forum.title}</a></p>
+        <p>${forum.description}</p>
+    </div>
+`;
+
+export { creteArticleItemtemplate, creteNewArticleItemtemplate, creteForumItemtemplate };
