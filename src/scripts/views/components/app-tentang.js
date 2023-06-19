@@ -12,7 +12,7 @@ class AppTentang extends HTMLElement {
                     src="./gizi-plus-logo/png/logo-no-background.png" alt="Logo GiziPlus" />
                 <div class="py-6 md:px-8 my-auto text-center md:pr-6 md:text-left">
                     <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Tentang Kami</h3>
-                        <p class="mb-3 font-normal text-gray-700">Kami adalah tim teknologi yang bersemangat yang membentuk aplikasi GiziPlus untuk mengatasi masalah kurang gizi di Indonesia, terutama di daerah pedesaan dan terpencil. Dengan memberikan akses kepada masyarakat untuk memilih makanan yang sehat, GiziPlus bertujuan untuk meningkatkan kualitas gizi dan mempromosikan gaya hidup sehat di Indonesia. Kami berkomitmen untuk terus mengembangkan aplikasi ini agar memberikan dampak positif yang signifikan bagi masyarakat.
+                        <p class="mb-3 font-normal text-gray-700">Kami adalah tim teknologi yang bersemangat membentuk aplikasi GiziPlus untuk mengatasi masalah kurang gizi di Indonesia, terutama di daerah pedesaan dan terpencil. Dengan memberikan akses kepada masyarakat untuk memilih makanan yang sehat, GiziPlus bertujuan untuk meningkatkan kualitas gizi dan mempromosikan gaya hidup sehat di Indonesia. Kami berkomitmen untuk terus mengembangkan aplikasi ini agar memberikan dampak positif yang signifikan bagi masyarakat.
                         </p>
                 </div>
             </div>

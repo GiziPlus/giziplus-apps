@@ -18,7 +18,7 @@ class AppHero extends HTMLElement {
                     width="400">
                 <div class="text-white max-w-lg">
                     <p class="text-sm leading-relaxed lg:text-xl">Selamat datang di, <span
-                            class="block text-3xl font-extrabold lg:text-4xl">GiziPlus</span> Lebih Lebih dari
+                            class="block text-3xl font-extrabold lg:text-4xl">GiziPlus</span> Lebih dari
                         sekedar aplikasi
                         gizi, ini adalah gaya hidup sehat anda. Temukan berbagai macam artikel mengenai
                         kebutuhan
