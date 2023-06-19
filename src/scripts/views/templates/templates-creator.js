@@ -1,4 +1,4 @@
-const creteArticleItemtemplate = (article) => `
+const createArticleItemtemplate = (article) => `
 <div class=" mx-auto bg-white border border-gray-200 rounded-lg shadow">
               <div>
                   <img class="object-cover max-h-56 w-full mx-auto sm:min-w-[300px] rounded-t-lg" src="${article.thumbnail ? article.thumbnail : '/images/thumbnailArticleDefault.webp'}" alt="${`Image ${article.title}`}" />
@@ -16,7 +16,7 @@ const creteArticleItemtemplate = (article) => `
           </div>
 `;
 
-const creteNewArticleItemtemplate = (article) => `
+const createNewArticleItemtemplate = (article) => `
 <div class="lg:px-32 md:px-16 mt-2 flex flex-col items-center">
     <div class="grid md:grid-cols-2 mb-6 max-w-full bg-white">
         <div>
@@ -40,7 +40,7 @@ const creteNewArticleItemtemplate = (article) => `
 Daftar Artikel</h1>
     `;
 
-const creteForumItemtemplate = (forum) => `
+const createForumItemtemplate = (forum) => `
     <div class="py-10 border-b-2">
         <p class="font-semibold">${forum.name}</p>
         <p class="font-bold text-xl"><a href="#">${forum.title}</a></p>
@@ -48,4 +48,4 @@ const creteForumItemtemplate = (forum) => `
     </div>
 `;
 
-export { creteArticleItemtemplate, creteNewArticleItemtemplate, creteForumItemtemplate };
+export { createArticleItemtemplate, createNewArticleItemtemplate, createForumItemtemplate };

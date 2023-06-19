@@ -1,5 +1,5 @@
 import { ForumSource } from '../../global/api-endpoint';
-import { creteForumItemtemplate } from '../templates/templates-creator';
+import { createForumItemtemplate } from '../templates/templates-creator';
 
 const Forum = {
   async render() {
@@ -12,7 +12,7 @@ const Forum = {
     const forum = await ForumSource.getForumList();
     const mainContainer = document.querySelector('#forum');
     forum.forEach((forums) => {
-      mainContainer.innerHTML += creteForumItemtemplate(forums);
+      mainContainer.innerHTML += createForumItemtemplate(forums);
     });
 
     const createForumButton = document.getElementById('create');
@@ -29,6 +29,17 @@ const Forum = {
       };
 
       await ForumSource.createForumDetail(forumData);
+    });
+
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('input', () => {
+      const searchQuery = searchInput.value.trim().toLowerCase();
+      const filteredForum = forum.filter((forum) => forum.title.toLowerCase().includes(searchQuery));
+
+      mainContainer.innerHTML = '';
+      filteredForum.forEach((forums) => {
+        mainContainer.innerHTML += createForumItemtemplate(forums);
+      });
     });
   },
 };

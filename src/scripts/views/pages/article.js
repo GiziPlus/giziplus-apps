@@ -1,5 +1,5 @@
 import { ArticleSource } from '../../global/api-endpoint';
-import { creteArticleItemtemplate, creteNewArticleItemtemplate } from '../templates/templates-creator';
+import { createArticleItemtemplate, createNewArticleItemtemplate } from '../templates/templates-creator';
 
 const Article = {
   async render() {
@@ -17,13 +17,13 @@ const Article = {
         return; // Break the loop after the first iteration
       }
 
-      mainContainer.innerHTML += creteNewArticleItemtemplate(article);
+      mainContainer.innerHTML += createNewArticleItemtemplate(article);
       displayedItems++;
     });
 
     const articleContainer = document.querySelector('#article');
     posts.forEach((article) => {
-      articleContainer.innerHTML += creteArticleItemtemplate(article);
+      articleContainer.innerHTML += createArticleItemtemplate(article);
     });
   },
 };

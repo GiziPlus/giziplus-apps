@@ -13,7 +13,7 @@ class AppPanduan extends HTMLElement {
                 </div>
                 <div class="flex flex-wrap justify-center gap-4">
                     <!-- Panduan 1 -->
-                    <div data-aos="fade-up" class="max-w-sm p-6 text-center">
+                    <div data-aos="fade-right" class="max-w-sm p-6 text-center">
                         <img class="w-20 h-20 mb-4 mx-auto" src="../icon/device.png" alt="Siapkan Perangkat">
                         <p class="mb-3 font-normal text-gray-500">
                             Siapkan perangkat yang akan kamu gunakan dalam mengerjakan tes status gizi, pastikan juga
@@ -31,7 +31,7 @@ class AppPanduan extends HTMLElement {
                         </p>
                     </div>
                     <!-- Panduan 3 -->
-                    <div data-aos="fade-up" class="max-w-sm p-6 text-center">
+                    <div data-aos="fade-left" class="max-w-sm p-6 text-center">
                         <img class="w-20 h-20 mb-4 mx-auto" src="../icon/search.png" alt="Hitung">
                         <p class="mb-3 font-normal text-gray-500">
                             Setelah itu kamu dapat menekan "Hitung", lalu kamu dapat melihat hasil status gizi kamu.

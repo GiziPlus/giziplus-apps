@@ -65,7 +65,7 @@ class HomeContent extends HTMLElement {
         <div class="flex flex-wrap flex-row-reverse justify-center items-center py-8 px-6 md:gap-8 md:py-24">
             <img data-aos="fade-down" class="w-3/4 md:w-1/2 lg:max-w-lg"
                 src="./team-spirit-animate.svg" alt="Gabung GiziPlus">
-            <div data-aos="fade-right"
+            <div data-aos="fade-right" data-aos-delay="1000"
                 class="flex flex-wrap justify-center text-black py-6 max-w-lg lg:justify-normal md:text-lg md:py-0">
                 <h1 class="text-2xl font-extrabold mb-6 text-center lg:text-4xl lg:text-left">Ayo Kita Jaga Kesehatan Bersama GiziPlus</h1>
                 <p class="text-center lg:text-left">Rasakan manfaatnya dan raih gaya hidup sehat yang lebih baik. Bergabunglah dengan kami sekarang dan nikmati manfaat gizi yang lengkap dan berkualitas tinggi dari GiziPlus.</p>

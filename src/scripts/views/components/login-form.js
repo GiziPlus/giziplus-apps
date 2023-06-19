@@ -5,7 +5,7 @@ class LoginForm extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <form class="space-y-6" action="#">
+      <form  class="space-y-6" action="#">
         <h5 class="text-xl font-medium text-gray-900 dark:text-white">
           Masuk ke GiziPlus
         </h5>
